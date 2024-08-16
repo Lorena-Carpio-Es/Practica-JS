@@ -1,7 +1,7 @@
-export function sumar(a, b) {
+ function sumar(a, b) {
   return a + b;
 }
 
-export function multiplicar(a, b) {
+function multiplicar(a, b) {
   return a * b;
 }
