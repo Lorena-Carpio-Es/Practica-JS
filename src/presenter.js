@@ -6,7 +6,6 @@ const form = document.querySelector("#calcular-form");
 const multiplicarButton = document.querySelector("#multiplicar-button");
 const div = document.querySelector("#resultado-div");
 
-
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
@@ -16,7 +15,9 @@ form.addEventListener("submit", (event) => {
   div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
 });
 
-multiplicarButton.addEventListener("click", () => {
+multiplicarButton.addEventListener("click", (event) => {
+  event.preventDefault(); // Prevenir el comportamiento predeterminado
+
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
