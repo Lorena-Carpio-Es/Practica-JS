@@ -1,4 +1,4 @@
-import { sumar, multiplicar } from "./operaciones.js";
+import { sumar, multiplicar } from "./sumador.js";
 
 describe("Operaciones matemáticas", () => {
   it("debería sumar dos números", () => {
