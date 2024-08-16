@@ -1,4 +1,4 @@
-import { sumar, multiplicar } from "./operaciones.js";
+import { sumar, multiplicar } from "./sumador.js";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
